@@ -35,7 +35,7 @@ public final class ContactSimpleDAO implements ContactDAO
             oldContact.setEmail(contact.getEmail());
         }
     }
-
+//667
     @Override
     public void deleteContact(Long contactId) {
         for(Iterator<Contact> it = contacts.iterator(); it.hasNext();) {
